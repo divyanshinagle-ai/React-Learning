@@ -1,5 +1,6 @@
 import React from 'react'
 import State from './State.jsx'
+import Event from './Event.jsx'
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <h1> Hello,Welcome to My React </h1>
 
       <State/>
+
+      <Event/>
     </div>
   )
 }
